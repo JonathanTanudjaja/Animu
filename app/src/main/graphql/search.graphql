@@ -1,0 +1,14 @@
+query SearchQuery($query: String!, $page: Int!, $perPage: Int!) {
+   Page (page: $page, perPage: $perPage){
+       media (search: $query) {
+           id
+           title {
+               romaji
+           }
+           coverImage {
+               medium
+           }
+           averageScore
+     }
+   }
+ }

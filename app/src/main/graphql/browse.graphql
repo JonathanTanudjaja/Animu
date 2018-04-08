@@ -1,0 +1,16 @@
+query BrowseQuery ($page: Int!, $perPage: Int!) {
+    Page (page: $page, perPage: $perPage){
+        mediaTrends {
+            media{
+                id
+                title {
+                    romaji
+                }
+                coverImage {
+                    medium
+                }
+                averageScore
+            }
+        }
+    }
+}

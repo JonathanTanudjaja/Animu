@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Animu</string>
+    <string name="app_label">Animu</string>
+    <string name="search_hint">Search for title</string>
+    <string name="search_title">Search</string>
+    <string name="search_for_anime">Search for anime</string>
+    <string name="load_more_loader">loading…</string>
+    <string name="cover_image">cover image</string>
+</resources>
